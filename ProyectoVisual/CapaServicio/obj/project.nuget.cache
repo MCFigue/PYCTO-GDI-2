@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YidX4xapNhGT/T88as/kFWiFgDSBEjHfttlavuGtmv0QiSMHRzDsnKYePMTCP3RhB9PNz70qfHtstk9vWK9yuQ==",
+  "dgSpecHash": "/JAkFiIJDaN9k+nIgp6OxbTmrgkmmV3TiBvEFZdFNsqEjJRuYymErijpp2PmFtXgXwzgV/h0ytszVoewjfwFyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
+  "projectFilePath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daniel\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
     "C:\\Users\\daniel\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

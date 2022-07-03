@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj": {}
+    "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
+    "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+        "projectUniqueName": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
         "projectName": "CapaModelo",
-        "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+        "projectPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
         "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\obj\\",
+        "outputPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {
+    "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
+        "projectUniqueName": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
         "projectName": "CapaServicio",
-        "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
+        "projectPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
         "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\obj\\",
+        "outputPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaServicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
-                "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj"
+              "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
+                "projectPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj"
               }
             }
           }
@@ -132,14 +132,14 @@
         }
       }
     },
-    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj": {
+    "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj",
+        "projectUniqueName": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj",
         "projectName": "ProyectoG06App",
-        "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj",
+        "projectPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\ProyectoG06App\\ProyectoG06App.csproj",
         "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\ProyectoG06App\\obj\\",
+        "outputPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\ProyectoG06App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,11 +156,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
-                "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj"
+              "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
+                "projectPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj"
               },
-              "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {
-                "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj"
+              "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {
+                "projectPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj"
               }
             }
           }

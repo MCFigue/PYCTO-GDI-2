@@ -99,3 +99,38 @@ C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\ProyectoG06App\o
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.genruntimeconfig.cache
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.Properties.Resources.resources
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.EsahMark.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.exe
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.deps.json
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.runtimeconfig.json
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.runtimeconfig.dev.json
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\MaterialSkin.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaModelo.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaServicio.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaServicio.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.AssemblyReference.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarAsesor.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarAsesoría.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarPedido.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.EsahMark.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormRegistrarAsesor.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormRegistrarPedido.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormReservarAsesoría.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.Properties.Resources.resources
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.GenerateResource.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.AssemblyInfoInputs.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.AssemblyInfo.cs
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.CoreCompileInputs.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.CopyComplete
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.genruntimeconfig.cache

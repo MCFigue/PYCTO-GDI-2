@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {}
+    "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
+    "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+        "projectUniqueName": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
         "projectName": "CapaModelo",
-        "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+        "projectPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
         "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\obj\\",
+        "outputPath": "C:\\UCV\\PROYECTO - GDI\\ProyectoVisual\\CapaModelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
