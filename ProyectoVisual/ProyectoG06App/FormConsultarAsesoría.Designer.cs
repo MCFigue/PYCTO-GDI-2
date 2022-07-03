@@ -39,10 +39,10 @@ namespace ProyectoG06App
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(305, 29);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(323, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 30);
+            this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Asesorías";
             // 
@@ -55,8 +55,9 @@ namespace ProyectoG06App
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvAsesorias.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvAsesorias.BackgroundColor = System.Drawing.Color.White;
             this.dgvAsesorias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAsesorias.Location = new System.Drawing.Point(63, 86);
+            this.dgvAsesorias.Location = new System.Drawing.Point(55, 103);
             this.dgvAsesorias.Name = "dgvAsesorias";
             this.dgvAsesorias.ReadOnly = true;
             this.dgvAsesorias.RowHeadersVisible = false;
@@ -74,6 +75,7 @@ namespace ProyectoG06App
             this.Controls.Add(this.label1);
             this.Name = "FormConsultarAsesoría";
             this.Text = "Consultar Asesorías";
+            this.Load += new System.EventHandler(this.FormConsultarAsesoría_Load);
             this.SizeChanged += new System.EventHandler(this.FormConsultarAsesoría_SizeChanged);
             this.Resize += new System.EventHandler(this.FormConsultarAsesoría_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAsesorias)).EndInit();

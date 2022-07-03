@@ -6,10 +6,12 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using CapaServicio;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace ProyectoG06App
 {
-    public partial class FormConsultarAsesor : Form
+    public partial class FormConsultarAsesor : MaterialForm
     {
         private static FormConsultarAsesor instancia = null;
         public static FormConsultarAsesor GetInstance()
@@ -25,6 +27,14 @@ namespace ProyectoG06App
         public FormConsultarAsesor()
         {
             InitializeComponent();
+            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(
+                Primary.Blue800,
+                Primary.Blue900,
+                Primary.Blue500,
+                Accent.LightBlue200,
+                TextShade.WHITE);
             agregarAsesoresTabla();
         }
 
@@ -64,6 +74,11 @@ namespace ProyectoG06App
         private void FormConsultarAsesor_SizeChanged(object sender, EventArgs e)
         {
             centrarElementos();
+        }
+
+        private void FormConsultarAsesor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

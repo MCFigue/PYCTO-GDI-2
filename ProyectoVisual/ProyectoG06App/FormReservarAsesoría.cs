@@ -6,10 +6,12 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using CapaServicio;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace ProyectoG06App
 {
-    public partial class FormReservarAsesoría : Form
+    public partial class FormReservarAsesoría : MaterialForm
     {
         private static FormReservarAsesoría instancia = null;
         public static FormReservarAsesoría GetInstance()
@@ -25,6 +27,14 @@ namespace ProyectoG06App
         public FormReservarAsesoría()
         {
             InitializeComponent();
+            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(
+                Primary.Blue800,
+                Primary.Blue900,
+                Primary.Blue500,
+                Accent.LightBlue200,
+                TextShade.WHITE);
             cargarCbxAsesor();
             dtpFecha.MinDate = DateTime.Now.Date.AddDays(2);
             lblMensaje.Visible = false;
@@ -115,5 +125,39 @@ namespace ProyectoG06App
             btnReservar.Enabled = true;
         }
 
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int clienteid = 1;
+                int asesorid = Convert.ToInt32(Convert.ToString(cbxAsesor.SelectedItem).Substring(0, 1));
+                dtpFecha.CustomFormat = "yyyy-MM-dd";
+                String fecha = dtpFecha.Text;
+                String observaciones = txtObservaciones.Text;
+                ReservarAsesoriaService service = new ReservarAsesoriaService();
+
+                service.reservarAsesoria(clienteid, asesorid, fecha, observaciones);
+
+                lblMensaje.Visible = true;
+                lblMensaje.Text = service.Mensaje;
+                deshabilitarEspacios();
+            }
+            catch
+            {
+                lblMensaje.Visible = true;
+                lblMensaje.Text = "Se ha encontrado un error. Vuelva a Intentarlo";
+                deshabilitarEspacios();
+            }
+        }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            cbxAsesor.SelectedIndex = -1;
+            txtHorario.Text = "";
+            dtpFecha.Value = DateTime.Now.AddDays(2);
+            txtObservaciones.Text = "";
+            lblMensaje.Visible = false;
+            habilitarEspacios();
+        }
     }
 }

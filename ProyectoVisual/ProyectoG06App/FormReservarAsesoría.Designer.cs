@@ -29,7 +29,6 @@ namespace ProyectoG06App
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cbxAsesor = new System.Windows.Forms.ComboBox();
@@ -37,21 +36,11 @@ namespace ProyectoG06App
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.txtObservaciones = new System.Windows.Forms.TextBox();
-            this.btnReservar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.lblMensaje = new System.Windows.Forms.Label();
-            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnReservar = new MaterialSkin.Controls.MaterialButton();
+            this.btnLimpiar = new MaterialSkin.Controls.MaterialButton();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(147, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Reservar Asesoría";
             // 
             // label2
             // 
@@ -115,17 +104,6 @@ namespace ProyectoG06App
             this.txtObservaciones.Size = new System.Drawing.Size(353, 121);
             this.txtObservaciones.TabIndex = 8;
             // 
-            // btnReservar
-            // 
-            this.btnReservar.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnReservar.Location = new System.Drawing.Point(82, 407);
-            this.btnReservar.Name = "btnReservar";
-            this.btnReservar.Size = new System.Drawing.Size(147, 38);
-            this.btnReservar.TabIndex = 9;
-            this.btnReservar.Text = "Reservar";
-            this.btnReservar.UseVisualStyleBackColor = true;
-            this.btnReservar.Click += new System.EventHandler(this.btnReservar_Click);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -146,26 +124,55 @@ namespace ProyectoG06App
             this.lblMensaje.TabIndex = 11;
             this.lblMensaje.Text = "Mensaje";
             // 
+            // btnReservar
+            // 
+            this.btnReservar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnReservar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnReservar.Depth = 0;
+            this.btnReservar.HighEmphasis = true;
+            this.btnReservar.Icon = null;
+            this.btnReservar.Location = new System.Drawing.Point(133, 398);
+            this.btnReservar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnReservar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnReservar.Name = "btnReservar";
+            this.btnReservar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnReservar.Size = new System.Drawing.Size(94, 36);
+            this.btnReservar.TabIndex = 13;
+            this.btnReservar.Text = "RESERVAR";
+            this.btnReservar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnReservar.UseAccentColor = false;
+            this.btnReservar.UseVisualStyleBackColor = true;
+            this.btnReservar.Click += new System.EventHandler(this.materialButton1_Click);
+            // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnLimpiar.Location = new System.Drawing.Point(244, 407);
+            this.btnLimpiar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnLimpiar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnLimpiar.Depth = 0;
+            this.btnLimpiar.HighEmphasis = true;
+            this.btnLimpiar.Icon = null;
+            this.btnLimpiar.Location = new System.Drawing.Point(247, 398);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnLimpiar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(147, 38);
-            this.btnLimpiar.TabIndex = 12;
-            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnLimpiar.Size = new System.Drawing.Size(79, 36);
+            this.btnLimpiar.TabIndex = 14;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnLimpiar.UseAccentColor = false;
             this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            this.btnLimpiar.Click += new System.EventHandler(this.materialButton2_Click);
             // 
             // FormReservarAsesoría
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 467);
+            this.ClientSize = new System.Drawing.Size(497, 469);
             this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnReservar);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnReservar);
             this.Controls.Add(this.txtObservaciones);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dtpFecha);
@@ -173,7 +180,6 @@ namespace ProyectoG06App
             this.Controls.Add(this.cbxAsesor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -185,8 +191,6 @@ namespace ProyectoG06App
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbxAsesor;
@@ -194,9 +198,11 @@ namespace ProyectoG06App
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtObservaciones;
-        private System.Windows.Forms.Button btnReservar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblMensaje;
-        private System.Windows.Forms.Button btnLimpiar;
+        private MaterialSkin.Controls.MaterialButton materialButton1;
+        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialButton btnReservar;
+        private MaterialSkin.Controls.MaterialButton btnLimpiar;
     }
 }

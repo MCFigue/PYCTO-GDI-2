@@ -9,10 +9,19 @@
       "CapaServicio/1.0.0": {
         "dependencies": {
           "CapaModelo": "1.0.0",
+          "MaterialSkin.2": "2.3.1",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
           "CapaServicio.dll": {}
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "runtime": {
+          "lib/net461/MaterialSkin.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -91,6 +100,9 @@
       },
       "System.Security.Principal.Windows/4.7.0": {},
       "CapaModelo/1.0.0": {
+        "dependencies": {
+          "MaterialSkin.2": "2.3.1"
+        },
         "runtime": {
           "CapaModelo.dll": {}
         }
@@ -102,6 +114,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MaterialSkin.2/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "path": "materialskin.2/2.3.1",
+      "hashPath": "materialskin.2.2.3.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

@@ -24,3 +24,16 @@ G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\
 G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CopyComplete
 G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.dll
 G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.pdb
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.deps.json
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.dll
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.pdb
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.dll
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.AssemblyReference.cache
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfoInputs.cache
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfo.cs
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CoreCompileInputs.cache
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CopyComplete
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.dll
+C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.pdb

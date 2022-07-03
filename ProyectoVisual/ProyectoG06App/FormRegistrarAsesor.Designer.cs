@@ -29,7 +29,6 @@ namespace ProyectoG06App
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,7 +39,6 @@ namespace ProyectoG06App
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.btnAgregar = new System.Windows.Forms.Button();
             this.txtNombres = new System.Windows.Forms.TextBox();
             this.txtApePaterno = new System.Windows.Forms.TextBox();
             this.txtApeMaterno = new System.Windows.Forms.TextBox();
@@ -56,19 +54,9 @@ namespace ProyectoG06App
             this.lblMensaje = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.cbxCiudad = new System.Windows.Forms.ComboBox();
-            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnAgregar = new MaterialSkin.Controls.MaterialButton();
+            this.btnLimpiar = new MaterialSkin.Controls.MaterialButton();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(214, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(201, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Registrar Asesor";
             // 
             // label2
             // 
@@ -159,17 +147,6 @@ namespace ProyectoG06App
             this.label11.Size = new System.Drawing.Size(50, 15);
             this.label11.TabIndex = 10;
             this.label11.Text = "Horario:";
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAgregar.Location = new System.Drawing.Point(350, 389);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(98, 41);
-            this.btnAgregar.TabIndex = 11;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtNombres
             // 
@@ -306,23 +283,53 @@ namespace ProyectoG06App
             this.cbxCiudad.Size = new System.Drawing.Size(121, 23);
             this.cbxCiudad.TabIndex = 26;
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnAgregar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnAgregar.Depth = 0;
+            this.btnAgregar.HighEmphasis = true;
+            this.btnAgregar.Icon = null;
+            this.btnAgregar.Location = new System.Drawing.Point(385, 411);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnAgregar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnAgregar.Size = new System.Drawing.Size(88, 36);
+            this.btnAgregar.TabIndex = 28;
+            this.btnAgregar.Text = "AGREGAR";
+            this.btnAgregar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnAgregar.UseAccentColor = false;
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.materialButton1_Click);
+            // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnLimpiar.Location = new System.Drawing.Point(485, 389);
+            this.btnLimpiar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnLimpiar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnLimpiar.Depth = 0;
+            this.btnLimpiar.HighEmphasis = true;
+            this.btnLimpiar.Icon = null;
+            this.btnLimpiar.Location = new System.Drawing.Point(487, 411);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnLimpiar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(98, 41);
-            this.btnLimpiar.TabIndex = 27;
-            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnLimpiar.Size = new System.Drawing.Size(79, 36);
+            this.btnLimpiar.TabIndex = 29;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnLimpiar.UseAccentColor = false;
             this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            this.btnLimpiar.Click += new System.EventHandler(this.materialButton2_Click);
             // 
             // FormRegistrarAsesor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 458);
+            this.ClientSize = new System.Drawing.Size(660, 484);
             this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.cbxCiudad);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.lblMensaje);
@@ -338,7 +345,6 @@ namespace ProyectoG06App
             this.Controls.Add(this.txtApeMaterno);
             this.Controls.Add(this.txtApePaterno);
             this.Controls.Add(this.txtNombres);
-            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -349,7 +355,6 @@ namespace ProyectoG06App
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -362,8 +367,6 @@ namespace ProyectoG06App
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -374,7 +377,6 @@ namespace ProyectoG06App
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.TextBox txtNombres;
         private System.Windows.Forms.TextBox txtApePaterno;
         private System.Windows.Forms.TextBox txtApeMaterno;
@@ -390,6 +392,7 @@ namespace ProyectoG06App
         private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox cbxCiudad;
-        private System.Windows.Forms.Button btnLimpiar;
+        private MaterialSkin.Controls.MaterialButton btnAgregar;
+        private MaterialSkin.Controls.MaterialButton btnLimpiar;
     }
 }

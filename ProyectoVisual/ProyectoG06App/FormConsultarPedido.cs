@@ -6,10 +6,12 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using CapaServicio;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace ProyectoG06App
 {
-    public partial class FormConsultarPedido : Form
+    public partial class FormConsultarPedido : MaterialForm
     {
         private static FormConsultarPedido instancia = null;
         public static FormConsultarPedido GetInstance()
@@ -25,6 +27,14 @@ namespace ProyectoG06App
         public FormConsultarPedido()
         {
             InitializeComponent();
+            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(
+                Primary.Blue800,
+                Primary.Blue900,
+                Primary.Blue500,
+                Accent.LightBlue200,
+                TextShade.WHITE);
             agregarPedidoTabla();
         }
 
@@ -67,6 +77,11 @@ namespace ProyectoG06App
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormConsultarPedido_Load(object sender, EventArgs e)
         {
 
         }

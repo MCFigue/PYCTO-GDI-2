@@ -39,10 +39,10 @@ namespace ProyectoG06App
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(337, 41);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(335, 89);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 30);
+            this.label1.Size = new System.Drawing.Size(71, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pedidos";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -56,6 +56,7 @@ namespace ProyectoG06App
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPedido.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvPedido.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvPedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPedido.Location = new System.Drawing.Point(60, 113);
             this.dgvPedido.Name = "dgvPedido";
@@ -75,6 +76,7 @@ namespace ProyectoG06App
             this.Controls.Add(this.label1);
             this.Name = "FormConsultarPedido";
             this.Text = "Consultar Pedidos";
+            this.Load += new System.EventHandler(this.FormConsultarPedido_Load);
             this.SizeChanged += new System.EventHandler(this.FormConsultarPedido_SizeChanged);
             this.Resize += new System.EventHandler(this.FormConsultarPedido_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedido)).EndInit();

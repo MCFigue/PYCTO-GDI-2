@@ -30,7 +30,6 @@ namespace ProyectoG06App
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.cbxPlan = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtCosto = new System.Windows.Forms.TextBox();
@@ -38,10 +37,10 @@ namespace ProyectoG06App
             this.cbxAsesor = new System.Windows.Forms.ComboBox();
             this.spnMeses = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.btnLimpiar = new System.Windows.Forms.Button();
             this.lblMensaje = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnRegistrar = new MaterialSkin.Controls.MaterialButton();
+            this.btnLimpiar = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.spnMeses)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,16 +52,6 @@ namespace ProyectoG06App
             this.label1.Size = new System.Drawing.Size(33, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Plan:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(113, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "REGISTRAR PEDIDO";
             // 
             // cbxPlan
             // 
@@ -129,26 +118,6 @@ namespace ProyectoG06App
             this.label5.TabIndex = 8;
             this.label5.Text = "Meses:";
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Location = new System.Drawing.Point(66, 325);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(119, 46);
-            this.btnRegistrar.TabIndex = 9;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Location = new System.Drawing.Point(232, 325);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(113, 46);
-            this.btnLimpiar.TabIndex = 10;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
-            // 
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
@@ -169,15 +138,55 @@ namespace ProyectoG06App
             this.label6.TabIndex = 12;
             this.label6.Text = "Mensaje:";
             // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnRegistrar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnRegistrar.Depth = 0;
+            this.btnRegistrar.HighEmphasis = true;
+            this.btnRegistrar.Icon = null;
+            this.btnRegistrar.Location = new System.Drawing.Point(95, 335);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnRegistrar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnRegistrar.Size = new System.Drawing.Size(99, 36);
+            this.btnRegistrar.TabIndex = 13;
+            this.btnRegistrar.Text = "REGISTRAR";
+            this.btnRegistrar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnRegistrar.UseAccentColor = false;
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.materialButton1_Click);
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnLimpiar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnLimpiar.Depth = 0;
+            this.btnLimpiar.HighEmphasis = true;
+            this.btnLimpiar.Icon = null;
+            this.btnLimpiar.Location = new System.Drawing.Point(228, 335);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnLimpiar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnLimpiar.Size = new System.Drawing.Size(79, 36);
+            this.btnLimpiar.TabIndex = 14;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnLimpiar.UseAccentColor = false;
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.materialButton2_Click);
+            // 
             // FormRegistrarPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 410);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.lblMensaje);
+            this.ClientSize = new System.Drawing.Size(435, 423);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.spnMeses);
             this.Controls.Add(this.cbxAsesor);
@@ -185,7 +194,6 @@ namespace ProyectoG06App
             this.Controls.Add(this.txtCosto);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cbxPlan);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -201,7 +209,6 @@ namespace ProyectoG06App
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbxPlan;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtCosto;
@@ -209,10 +216,10 @@ namespace ProyectoG06App
         private System.Windows.Forms.ComboBox cbxAsesor;
         private System.Windows.Forms.NumericUpDown spnMeses;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnRegistrar;
-        private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.Label label6;
+        private MaterialSkin.Controls.MaterialButton btnRegistrar;
+        private MaterialSkin.Controls.MaterialButton btnLimpiar;
     }
 }
 

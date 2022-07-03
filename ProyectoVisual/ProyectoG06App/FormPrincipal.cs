@@ -5,16 +5,26 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace ProyectoG06App
 {
-    public partial class FormPrincipal : Form
+    public partial class EsahMark : MaterialForm
     {
         private int childFormNumber = 0;
 
-        public FormPrincipal()
+        public EsahMark()
         {
             InitializeComponent();
+            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(
+                Primary.Blue800,
+                Primary.Blue900,
+                Primary.Blue500,
+                Accent.LightBlue200,
+                TextShade.WHITE);
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -92,6 +102,11 @@ namespace ProyectoG06App
             FormConsultarAsesor view = FormConsultarAsesor.GetInstance();
             view.MdiParent = this;
             view.Show();
+        }
+
+        private void EsahMark_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

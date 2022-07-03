@@ -1,11 +1,41 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MaterialSkin.2/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MaterialSkin.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MaterialSkin.2/2.3.1": {
+      "sha512": "w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "type": "package",
+      "path": "materialskin.2/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MaterialSkin.dll",
+        "lib/net461/MaterialSkin.dll",
+        "lib/net48/MaterialSkin.dll",
+        "lib/net5.0-windows7.0/MaterialSkin.dll",
+        "materialskin.2.2.3.1.nupkg.sha512",
+        "materialskin.2.nuspec",
+        "nugetIcon.png"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MaterialSkin.2 >= 2.3.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\daniel\\.nuget\\packages\\": {}
@@ -13,11 +43,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+      "projectUniqueName": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
       "projectName": "CapaModelo",
-      "projectPath": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+      "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
       "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-      "outputPath": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\obj\\",
+      "outputPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +75,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MaterialSkin.2": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -63,5 +99,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"MaterialSkin.2 2.3.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "MaterialSkin.2",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

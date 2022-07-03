@@ -7,10 +7,12 @@ using System.Text;
 using System.Windows.Forms;
 using CapaModelo;
 using CapaServicio;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace ProyectoG06App
 {
-    public partial class FormRegistrarAsesor : Form
+    public partial class FormRegistrarAsesor : MaterialForm
     {
         private static FormRegistrarAsesor instancia = null;
         public static FormRegistrarAsesor GetInstance()
@@ -26,6 +28,14 @@ namespace ProyectoG06App
         public FormRegistrarAsesor()
         {
             InitializeComponent();
+            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(
+                Primary.Blue800,
+                Primary.Blue900,
+                Primary.Blue500,
+                Accent.LightBlue200,
+                TextShade.WHITE);
             lblMensaje.Visible = false;
         }
 
@@ -132,6 +142,56 @@ namespace ProyectoG06App
             txtCorreo.Enabled = true;
             cbxCiudad.Enabled = true;
             btnAgregar.Enabled = true;
+        }
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                RegistrarAsesorService servicio = new RegistrarAsesorService();
+                AsesorModel asesor = new AsesorModel();
+                asesor.Nombre = txtNombres.Text;
+                asesor.ApePaterno = txtApePaterno.Text;
+                asesor.ApeMaterno = txtApeMaterno.Text;
+                asesor.NroIdentificacion = txtDNI.Text;
+                dtpFechaNac.CustomFormat = "yyyy-MM-dd";
+                asesor.FechaNac = dtpFechaNac.Text;
+                asesor.Sexo = Convert.ToString(cbxSexo.SelectedItem);
+                asesor.Email = txtCorreo.Text;
+                asesor.Telefono = txtTelefono.Text;
+                asesor.Sueldo = txtSueldo.Text;
+                asesor.CiudadID = servicio.obtenerIDCiudad(Convert.ToString(cbxCiudad.SelectedItem));
+                asesor.TurnoID = Convert.ToString(cbxTurno.SelectedIndex + 1);
+                servicio.registrarAsesor(asesor);
+                lblMensaje.Text = servicio.Mensaje;
+                lblMensaje.Visible = true;
+                deshabilitarEspacios();
+            }
+            catch
+            {
+                lblMensaje.Visible = true;
+                lblMensaje.Text = "Se ha encontrado un error. Vuelva a Intentarlo";
+                deshabilitarEspacios();
+            }
+
+        }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            txtNombres.Text = "";
+            txtApePaterno.Text = "";
+            txtApeMaterno.Text = "";
+            txtDNI.Text = "";
+            dtpFechaNac.Text = "";
+            cbxSexo.SelectedIndex = -1;
+            txtCorreo.Text = "";
+            txtTelefono.Text = "";
+            txtSueldo.Text = "";
+            cbxCiudad.SelectedIndex = -1;
+            cbxTurno.SelectedIndex = -1;
+            txtHorario.Text = "";
+            lblMensaje.Visible = false;
+            habilitarEspacios();
         }
     }
 }

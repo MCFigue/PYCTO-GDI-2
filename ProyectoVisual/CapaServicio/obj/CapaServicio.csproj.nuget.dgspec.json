@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {}
+    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {}
   },
   "projects": {
-    "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
+    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+        "projectUniqueName": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
         "projectName": "CapaModelo",
-        "projectPath": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
+        "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj",
         "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-        "outputPath": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\obj\\",
+        "outputPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MaterialSkin.2": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,14 +64,14 @@
         }
       }
     },
-    "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {
+    "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
+        "projectUniqueName": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
         "projectName": "CapaServicio",
-        "projectPath": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
+        "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\CapaServicio.csproj",
         "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-        "outputPath": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaServicio\\obj\\",
+        "outputPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaServicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
-                "projectPath": "G:\\Mi unidad\\UNIVERSIDAD\\5C-1S\\GDI II\\Sesion 14\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj"
+              "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj": {
+                "projectPath": "C:\\Users\\daniel\\OneDrive\\Documentos\\EDITABLE GDI\\ProyectoVisual\\CapaModelo\\CapaModelo.csproj"
               }
             }
           }
@@ -98,6 +104,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MaterialSkin.2": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"

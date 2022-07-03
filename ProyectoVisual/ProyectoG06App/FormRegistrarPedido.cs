@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaServicio;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace ProyectoG06App
 {
-    public partial class FormRegistrarPedido : Form
+    public partial class FormRegistrarPedido : MaterialForm
     {
         private static FormRegistrarPedido instancia = null;
         public static FormRegistrarPedido GetInstance()
@@ -28,6 +30,14 @@ namespace ProyectoG06App
         public FormRegistrarPedido()
         {
             InitializeComponent();
+            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(
+                Primary.Blue800,
+                Primary.Blue900,
+                Primary.Blue500,
+                Accent.LightBlue200,
+                TextShade.WHITE);
             cargarCbxAsesor();
             lblMensaje.Visible = false;
         }
@@ -121,5 +131,36 @@ namespace ProyectoG06App
             }
         }
 
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int clienteid = 1;
+                int asesorid = Convert.ToInt32(Convert.ToString(cbxAsesor.SelectedItem).Substring(0, 1));
+                int planid = idplan;
+                int meses = ((int)spnMeses.Value);
+                String fechaini = DateTime.Now.ToString("yyyy-MM-dd");
+                RegistrarPedidoService service = new RegistrarPedidoService();
+                service.registrarPedido(clienteid, asesorid, planid, meses, fechaini);
+                lblMensaje.Visible = true;
+                lblMensaje.Text = service.Mensaje;
+                deshabilitarEspacios();
+            }
+            catch
+            {
+                lblMensaje.Visible = true;
+                lblMensaje.Text = "Se ha encontrado un error. Vuelva a Intentarlo";
+                deshabilitarEspacios();
+            }
+        }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            cbxPlan.SelectedIndex = -1;
+            cbxAsesor.SelectedIndex = -1;
+            spnMeses.Value = 0;
+            lblMensaje.Visible = false;
+            habilitarEspacios();
+        }
     }
 }

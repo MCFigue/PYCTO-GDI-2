@@ -39,10 +39,10 @@ namespace ProyectoG06App
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(293, 36);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(300, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 25);
+            this.label1.Size = new System.Drawing.Size(88, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "ASESORES";
             // 
@@ -75,6 +75,7 @@ namespace ProyectoG06App
             this.Controls.Add(this.label1);
             this.Name = "FormConsultarAsesor";
             this.Text = "Consultar Asesores";
+            this.Load += new System.EventHandler(this.FormConsultarAsesor_Load);
             this.SizeChanged += new System.EventHandler(this.FormConsultarAsesor_SizeChanged);
             this.Resize += new System.EventHandler(this.FormConsultarAsesor_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAsesor)).EndInit();
