@@ -1,0 +1,66 @@
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.exe
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.deps.json
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.runtimeconfig.json
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.runtimeconfig.dev.json
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.pdb
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaModelo.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaServicio.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaServicio.pdb
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.AssemblyReference.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormRegistrarPedido.resources
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.GenerateResource.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.AssemblyInfoInputs.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.AssemblyInfo.cs
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.CoreCompileInputs.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.CopyComplete
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.pdb
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.genruntimeconfig.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarAsesor.resources
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormRegistrarAsesor.resources
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarPedido.resources
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarAsesoría.resources
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormPrincipal.resources
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormReservarAsesoría.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.exe
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.deps.json
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.runtimeconfig.json
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.runtimeconfig.dev.json
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\ProyectoG06App.pdb
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaModelo.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaServicio.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\bin\Debug\netcoreapp3.1\CapaServicio.pdb
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.AssemblyReference.cache
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarAsesor.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarAsesoría.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormConsultarPedido.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormPrincipal.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormRegistrarAsesor.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormRegistrarPedido.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.FormReservarAsesoría.resources
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.GenerateResource.cache
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.AssemblyInfoInputs.cache
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.AssemblyInfo.cs
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.CoreCompileInputs.cache
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.csproj.CopyComplete
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.pdb
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\ProyectoG06App\obj\Debug\netcoreapp3.1\ProyectoG06App.genruntimeconfig.cache

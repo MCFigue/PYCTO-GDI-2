@@ -1,0 +1,26 @@
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.deps.json
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.pdb
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.AssemblyReference.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfoInputs.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfo.cs
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CoreCompileInputs.cache
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CopyComplete
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.dll
+C:\Users\OSCAR\Desktop\Gestión de Datos e Información II\Repositorio GitHub\Proyecto\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.pdb
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.deps.json
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.pdb
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.AssemblyReference.cache
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfoInputs.cache
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfo.cs
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CoreCompileInputs.cache
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CopyComplete
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.dll
+G:\Mi unidad\UNIVERSIDAD\5C-1S\GDI II\Sesion 14\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.pdb
