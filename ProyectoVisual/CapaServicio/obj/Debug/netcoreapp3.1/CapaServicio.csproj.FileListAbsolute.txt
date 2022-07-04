@@ -37,3 +37,16 @@ C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CopyComplete
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.dll
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.deps.json
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaServicio.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.AssemblyReference.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfoInputs.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.AssemblyInfo.cs
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CoreCompileInputs.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.csproj.CopyComplete
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaServicio\obj\Debug\netcoreapp3.1\CapaServicio.pdb

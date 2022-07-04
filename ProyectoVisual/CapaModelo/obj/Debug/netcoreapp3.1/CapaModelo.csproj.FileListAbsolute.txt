@@ -28,3 +28,13 @@ C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaModelo\obj\D
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.csproj.CoreCompileInputs.cache
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.dll
 C:\Users\daniel\OneDrive\Documentos\EDITABLE GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\bin\Debug\netcoreapp3.1\CapaModelo.deps.json
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\bin\Debug\netcoreapp3.1\CapaModelo.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\bin\Debug\netcoreapp3.1\CapaModelo.pdb
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.csproj.AssemblyReference.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.AssemblyInfoInputs.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.AssemblyInfo.cs
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.csproj.CoreCompileInputs.cache
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.dll
+C:\UCV\PROYECTO - GDI\ProyectoVisual\CapaModelo\obj\Debug\netcoreapp3.1\CapaModelo.pdb
